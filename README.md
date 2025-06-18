@@ -1,5 +1,7 @@
 # OpenAI API Mock Environment (Split My Receipt Up)
 
+※ [English README.md is here！](/docs/README-english.md)👈
+
 OpenAI APIを利用するとトークンがかかるので動作確認用のモック環境を用意しました。
 
 - [フロントエンド側](https://github.com/PerryM123/split-my-receipt-up-frontend)

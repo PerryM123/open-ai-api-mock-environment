@@ -1,5 +1,7 @@
 # OpenAI API Mock Environment (Split My Receipt Up)
 
+※ [日本語のREADME.mdはここ！](./../README.md)👈
+
 Since using OpenAI API requires tokens, this mock environment will act as OpenAI during my development progress.
 
 - [Frontend](https://github.com/PerryM123/split-my-receipt-up-frontend)
