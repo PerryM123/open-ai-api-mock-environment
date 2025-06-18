@@ -2,6 +2,9 @@
 
 Since using OpenAI API requires tokens, this mock environment will act as OpenAI during my development progress.
 
+- [Frontend](https://github.com/PerryM123/split-my-receipt-up-frontend)
+- [Backend](https://github.com/PerryM123/memories_backend)
+
 ## Simple Architecture for Mock Environment
 ![alt text](/docs/images/simple-architecture-with-mock.jpg)
 

@@ -2,6 +2,9 @@
 
 OpenAI APIを利用するとトークンがかかるので動作確認用のモック環境を用意しました。
 
+- [フロントエンド側](https://github.com/PerryM123/split-my-receipt-up-frontend)
+- [バックエンド側](https://github.com/PerryM123/memories_backend)
+
 ## 簡単なアーキテクチャ設計（モック用）
 ![alt text](/docs/images/simple-architecture-with-mock.jpg)
 
