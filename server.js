@@ -3,19 +3,21 @@ const cors = require("cors");
 const app = express();
 const PORT = 3926;
 
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 app.use(cors());
 // Middleware to parse JSON in the request body
 app.use(express.json({ limit: "50mb" }));
 // POST endpoint
-app.post("/v1/chat/completions", (req, res) => {
+app.post("/v1/chat/completions", async(req, res) => {
   const requestData = req.body;
-  // Log or use requestData as needed
   console.log("Received:", requestData);
-
   const isErrorPattern = !!process.env.ERROR_PATTERN;
 
   if (!isErrorPattern) {
-    // Send JSON response
+    await sleep(2000);
     res.json({
       id: "chatcmpl-hogehoge",
       object: "chat.completion",
